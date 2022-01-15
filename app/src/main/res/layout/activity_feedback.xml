@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".FeedbackActivity">
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/suggestion"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:hint="Errors, Sugestions, etc."
+    android:inputType="text"
+    android:paddingHorizontal="16dp"
+    android:layout_gravity="center|start"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/names"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:inputType="text"
+        android:hint="Name"
+        android:paddingHorizontal="16dp"
+        android:layout_gravity="center|start"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/feedBack"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="Feedback"
+        android:paddingHorizontal="16dp"
+        android:layout_gravity="center|start"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/cool_pink"
+        android:paddingHorizontal="16dp"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

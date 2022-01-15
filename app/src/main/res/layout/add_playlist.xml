@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:hint="Playlist Name"
+    app:startIconDrawable="@drawable/playlist_icon"
+    app:startIconTint="@color/cool_pink"
+    android:textColorHint="@color/black"
+
+app:boxStrokeColor="@color/cool_pink"
+  >
+    <com.google.android.material.textfield.TextInputEditText
+android:id="@+id/playlistPL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:inputType="text"
+android:textColor="@color/black"
+
+        android:maxLength="40"
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+app:boxStrokeColor="@color/cool_pink"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        app:startIconDrawable="@drawable/playlist_icon"
+        app:startIconTint="@color/cool_pink"
+android:textColorHint="@color/black"
+        android:hint="Your Name"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PLname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+android:textColor="@color/black"
+
+            android:inputType="text"
+            android:maxLength="40"
+
+            />
+
+
+
+</com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>
